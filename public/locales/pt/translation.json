@@ -1,0 +1,10 @@
+{
+    "site": {
+      "title": "Meu site incrível!",
+      "description": "Essa é a descrição do meu site incrível!"
+    },
+    "home": {
+      "title": "Bem vindo ao meu site incrível!",
+      "subtitle": "Essa é uma frase <0>mais complexa</0> de se traduzir, misturada com <1>elementos html</1>, como <2>um link legal</2>!"
+    }
+  }

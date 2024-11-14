@@ -1,16 +1,48 @@
 ---
+	import Layout from "../layouts/Layout.astro";
+	import { t, changeLanguage } from "i18next";
+	import { Trans } from "astro-i18next/components";
 
+	changeLanguage("pt");
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<main>
+		<h1>{t("home.title")}</h1>
+		<p>
+			<Trans i18nKey="home.subtitle">
+				This is a <em>more complex</em> string to translate, mixed with <strong>html elements
+				</strong> such as <a href="https://example.com/">a cool link</a>!
+			</Trans>
+		</p>
+
+		<div class="btn" id="setEnglish">
+			English
+		</div>
+	</main>
+</Layout>
+
+<script>
+const setEnglishBtn = document.getElementById('setEnglish')
+if(!setEnglishBtn) return 
+
+setEnglishBtn.addEventListener("click", () => {
+	changeLanguage("en")
+})
+
+</script>
+
+<style>
+	.btn {
+		padding: 8px 16px;
+		background-color: teal;
+		border: 2px solid #ccc;
+		color: #fff;
+		border-radius: 50px;
+		width: 70px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+</style>
