@@ -1,18 +1,33 @@
 ---
-// src/pages/index.astro
-import i18next, { t } from "i18next";
-import { HeadHrefLangs } from "astro-i18next/components";
+  // src/pages/index.astro
+  import i18next, { t } from "i18next";
+  import { HeadHrefLangs } from "astro-i18next/components";
+  import Header from "../components/Header.astro";
+  import '../css/index.css'
 ---
 
 <html lang={i18next.language}>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{t("site.title")}</title>
-    <meta name="description" content={t("site.description")} />
-    <HeadHrefLangs />
-  </head>
-  <body>
-    <slot />
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{t("site.title")}</title>
+  <meta name="description" content={t("site.description")} />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Font Poppins -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <!-- Material Symbols -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700&display=swap"
+    rel="stylesheet">
+  <!-- font-awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <HeadHrefLangs />
+</head>
+
+<body class="my-container bg-light dark:bg-dark text-dark dark:text-light h-dvh transition-all duration-500">
+  <Header />
+  <slot />
+</body>
+
 </html>

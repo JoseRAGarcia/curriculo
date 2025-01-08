@@ -1,48 +1,23 @@
 ---
 	import Layout from "../layouts/Layout.astro";
-	import { t, changeLanguage } from "i18next";
-	import { Trans } from "astro-i18next/components";
+	import { changeLanguage } from "i18next";
+	import HeroBanner from "../components/HeroBanner.astro";
+	import Profile from "../components/Profile.astro";
+	import WorkExperience from "../components/WorkExperience.astro";
+	import AcademicBackground from "../components/AcademicBackground.astro";
+	import Skills from "../components/Skills.astro";
 
 	changeLanguage("pt");
 ---
 
 <Layout>
-	<main>
-		<h1>{t("home.title")}</h1>
-		<p>
-			<Trans i18nKey="home.subtitle">
-				This is a <em>more complex</em> string to translate, mixed with <strong>html elements
-				</strong> such as <a href="https://example.com/">a cool link</a>!
-			</Trans>
-		</p>
-
-		<div class="btn" id="setEnglish">
-			English
-		</div>
+	<main class="h-full">
+		<HeroBanner />
+		<Profile />
+		<Skills />
+		<WorkExperience />
+		<AcademicBackground />
 	</main>
 </Layout>
 
-<script>
-const setEnglishBtn = document.getElementById('setEnglish')
-if(!setEnglishBtn) return 
-
-setEnglishBtn.addEventListener("click", () => {
-	changeLanguage("en")
-})
-
-</script>
-
-<style>
-	.btn {
-		padding: 8px 16px;
-		background-color: teal;
-		border: 2px solid #ccc;
-		color: #fff;
-		border-radius: 50px;
-		width: 70px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
-	}
-</style>
+<script src="../js/main.ts"></script>

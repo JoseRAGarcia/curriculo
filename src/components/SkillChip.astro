@@ -1,0 +1,13 @@
+---
+    const { titulo, img, color, size } = Astro.props;
+---
+
+<div class={`rounded-full overflow-hidden flex items-center gap-1 py-1 px-2 ${size==='md' ? 'h-8' : 'h-6' }`}
+    style={`border: 1px solid ${color};`}>
+    <div class={`dark:bg-light rounded-full flex items-center justify-center ${size==='md' ? 'w-6 h-6' : 'w-4 h-4' }`}>
+        <img src={img} alt="Imagem da competência">
+    </div>
+    <div class={`text-dark dark:text-gray-300 font-semibold text-${size}`}>
+        {titulo}
+    </div>
+</div>

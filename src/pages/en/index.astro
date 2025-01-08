@@ -1,19 +1,23 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import { t, changeLanguage } from "i18next";
-import { Trans } from "astro-i18next/components";
+	import Layout from "../../layouts/Layout.astro";
+	import { changeLanguage } from "i18next";
+	import HeroBanner from "../../components/HeroBanner.astro";
+	import Profile from "../../components/Profile.astro";
+	import WorkExperience from "../../components/WorkExperience.astro";
+	import AcademicBackground from "../../components/AcademicBackground.astro";
+	import Skills from "../../components/Skills.astro";
 
-changeLanguage("en");
+	changeLanguage("en");
 ---
 
 <Layout>
-	<main>
-		<h1>{t("home.title")}</h1>
-		<p>
-			<Trans i18nKey="home.subtitle">
-				This is a <em>more complex</em> string to translate, mixed with <strong>html elements
-				</strong> such as <a href="https://example.com/">a cool link</a>!
-			</Trans>
-		</p>
+	<main class="h-full">
+		<HeroBanner />
+		<Profile />
+		<Skills />
+		<WorkExperience />
+		<AcademicBackground />
 	</main>
 </Layout>
+
+<script src="../../js/en_main.ts"></script>

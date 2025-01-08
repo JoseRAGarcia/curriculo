@@ -1,0 +1,36 @@
+---
+    import ThemeIcon from "./ThemeIcon.astro";
+
+---
+
+<header class="no-print lg:mx-auto md:h-20 pt-4 px-4 lg:px-0 flex gap-4 items-center justify-end">
+    <select name="lng-select" id="lng-select" class="py-2 px-4 bg-white dark:bg-dark dark:border text-gray-500 font-semibold
+        rounded-lg shadow-md focus:outline-none transition-background duration-500">
+        <option value="" selected>Português</option>
+        <option value="en">English</option>
+    </select>
+
+
+
+    <ThemeIcon />
+
+    <button id="print-btn" class="bg-primary dark:bg-secondary text-dark p-2 pb-0 rounded-full shadow-md ml-6">
+        <span id="navMenuTogglerIcon" class="material-symbols-outlined font-light">
+            print
+        </span>
+    </button>
+</header>
+
+<script>
+    const setPrintBtnEvent = () => {
+        const printBtn = document.getElementById("print-btn")
+
+        if (!printBtn) return
+
+        printBtn.addEventListener('click', () => {
+            window.print();
+        })
+    }
+
+    setPrintBtnEvent()
+</script>

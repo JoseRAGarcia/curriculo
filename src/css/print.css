@@ -1,0 +1,29 @@
+@media print {
+    * {
+      -webkit-print-color-adjust: exact; /* Para navegadores baseados em WebKit */
+      print-color-adjust: exact; /* Para navegadores compatíveis */
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+  .no-print {
+    display: none !important;
+  }
+  .only-print {
+    display: flex !important;
+  }
+
+  .page-top {
+    padding-top: 32px;
+  }
+
+  .my-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 32px;
+  }
+}

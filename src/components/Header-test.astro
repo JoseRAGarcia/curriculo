@@ -1,0 +1,50 @@
+---
+    import Button from "./Button.astro";
+
+---
+
+<header class="lg:container lg:mx-auto h-12 md:h-20 px-8 md:px-12 xl:px-28 flex gap-12 items-center">
+    <a href="#" class="text-3xl font-bold whitespace-nowrap">José Garcia</a>
+
+    <button id="navMenuToggler" class="fixed top-0 right-0 p-4 z-20 lg:hidden">
+        <span id="navMenuTogglerIcon" class="material-symbols-outlined">
+            menu
+        </span>
+    </button>
+
+    <div id="navMenu"
+        class="fixed lg:relative top-0 left-0 bg-light dark:bg-dark bg-opacity-95 text-center overflow-hidden
+        transition-all duration-500 flex flex-col lg:flex-row gap-8 items-center justify-center w-full h-0 opacity-0 lg:h-full lg:opacity-100 z-10">
+        <nav class="lg:flex-1 flex gap-8 flex-col lg:flex-row">
+            <a href="#">Home</a>
+            <a href="#">Company</a>
+            <a href="#">Products</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <Button />
+    </div>
+</header>
+
+<script>
+    const setMenuAction = () => {
+        const navMenuToggler = document.getElementById("navMenuToggler")
+        const navMenuTogglerIcon = document.getElementById("navMenuTogglerIcon")
+        const navMenu = document.getElementById("navMenu")
+        if (!navMenuToggler || !navMenuTogglerIcon || !navMenu) return
+
+        navMenuToggler.addEventListener("click", () => {
+            navMenu.classList.toggle("h-0")
+            navMenu.classList.toggle("h-full")
+            navMenu.classList.toggle("opacity-0")
+            navMenu.classList.toggle("opacity-100")
+            if (navMenuTogglerIcon.innerHTML == 'close') {
+                return navMenuTogglerIcon.innerHTML = 'menu'
+            }
+            navMenuTogglerIcon.innerHTML = 'close'
+
+
+        })
+    }
+
+    setMenuAction()
+</script>

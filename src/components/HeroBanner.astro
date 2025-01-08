@@ -1,0 +1,89 @@
+---
+  import { t } from "i18next";
+---
+
+<div class="relative lg:mx-auto mt-16 flex gap-16 items-center px-4 lg:px-0">
+  <div class="bg-primary dark:bg-secondary rounded-full absolute" style="height: 100px; width: 100px; top: -24px">
+  </div>
+  <div class="w-full grid grid-cols-12 gap-6 md:gap-0">
+    <div class="col-span-12 lg:col-span-3 z-20 ml-6 resume-title">
+      <h1 class="text-4xl md:text-5xl font-semibold whitespace-nowrap">
+        José Garcia
+      </h1>
+      <p class="font-thin">
+        {t("heroBanner.developer")}
+      </p>
+    </div>
+    <div class="relative col-span-12 lg:col-span-9 mt-4 md:mt-8 lg:mt-16">
+      <div class="no-print absolute flex items-end gap-4 -top-8 right-0 text-gray-500">
+        <a href="https://www.linkedin.com/in/jragarcia/" target="_blank">
+          <i class="fab fa-linkedin fa-xl"></i> 
+        </a>
+
+        <a href="https://github.com/joseragarcia" target="_blank">
+          <i class="fab fa-github fa-xl"></i> 
+        </a>
+
+        <a href="https://wa.me/5521993121757" target="_blank">
+          <i class="fab fa-whatsapp fa-xl"></i> 
+        </a>
+      </div>
+
+      <div class="border-t border-dark dark:border-light py-4 flex flex-col sm:flex-row gap-4 sm:gap-0 justify-between">
+        <div class="flex gap-2 items-center cursor-pointer">
+          <span id="navMenuTogglerIcon" class="material-symbols-outlined font-light" style="font-size: 40px">
+            call
+          </span>
+          <div class="text-xs">
+            <p class="font-semibold">{t("heroBanner.phone")}</p>
+            <p class="font-thin">+55 21 99312-1757</p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center cursor-pointer">
+          <span id="navMenuTogglerIcon" class="material-symbols-outlined font-light" style="font-size: 40px">
+            mail
+          </span>
+          <div class="text-xs">
+            <p class="font-semibold">{t("heroBanner.email")}</p>
+            <p class="font-thin">jose.ragarcia82@gmail.com</p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center cursor-pointer">
+          <span id="navMenuTogglerIcon" class="material-symbols-outlined font-light" style="font-size: 40px">
+            web_asset
+          </span>
+          <div class="text-xs">
+            <p class="font-semibold">{t("heroBanner.website")}</p>
+            <p class="font-thin">josegarciadev.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="hidden only-print pb-4 flex flex-col sm:flex-row gap-4 sm:gap-0 justify-between">
+        <div class="flex gap-2 items-center cursor-pointer">
+          <i class="fab fa-whatsapp font-light" style="font-size: 40px; font-weight: 100;"></i> 
+          <div class="text-xs">
+            <p class="font-semibold">whatsapp</p>
+            <p class="font-thin">+55 21 99312-1757</p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center justify-start cursor-pointer">
+          <i class="fab fa-github font-light" style="font-size: 40px; font-weight: 100;"></i> 
+          <div class="text-xs">
+            <p class="font-semibold">GitHub</p>
+            <p class="font-thin">github.com/joseragarcia</p>
+          </div>
+        </div>
+        <div class="flex gap-2 items-center cursor-pointer">
+          <i class="fab fa-linkedin font-light" style="font-size: 40px; font-weight: 100;"></i> 
+          <div class="text-xs">
+            <p class="font-semibold">LinkedIn</p>
+            <p class="font-thin">linkedin.com/in/jragarcia/</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,74 @@
+---
+  import { t } from "i18next";
+---
+
+<div class="academic-background-container relative lg:mx-auto my-16 items-center px-4 lg:px-0">
+  <div class="w-full grid grid-cols-12 gap-6 md:gap-0">
+    <div class="col-span-12 lg:col-span-3 z-20 ml-6 hidden lg:block">
+      <div
+        class="relative font-semibold pb-2 w-min after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-dark dark:after:bg-light after:w-full">
+        {t("academicBackground.academicBackgroundTitle")}
+      </div>
+    </div>
+
+    <div class="col-span-12 lg:col-span-9">
+      <div class="relative font-semibold pb-2 w-full lg:hidden">
+        {t("academicBackground.academicBackgroundTitle")}
+      </div>
+      <div class="flex">
+        <div class=" flex flex-col gap-1 border-t-2 border-dark dark:border-light pt-6 pr-4" style="width: 150px">
+
+          <div class="relative text-sm font-semibold whitespace-nowrap">
+            {t("academicBackground.academicBackground1Period")}
+          </div>
+
+
+          <div class="text-xs font-thin flex flex-col gap-2">
+            <p>{t("academicBackground.academicBackground1CompanyName")}</p>
+
+            <p class="font-semibold">{t("academicBackground.academicBackground1CR")}</p>
+
+
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col border-t-2 border-primary dark:border-secondary pt-6 pl-4  gap-1">
+          <div class="relative text-sm font-semibold">
+            {t("academicBackground.academicBackground1Course")}
+          </div>
+
+          <p class="text-sm font-thin">
+            {t("academicBackground.academicBackground1Description")}
+          </p>
+        </div>
+
+      </div>
+      <div class="flex mt-6">
+        <div class=" flex flex-col gap-1 pt-6 pr-4" style="width: 150px">
+
+          <div class="relative text-sm font-semibold whitespace-nowrap">
+            {t("academicBackground.academicBackground2Period")}
+          </div>
+
+
+          <div class="text-xs font-thin flex flex-col gap-2">
+            <p>{t("academicBackground.academicBackground2CompanyName")}</p>
+            <p class="font-semibold">{t("academicBackground.academicBackground2CR")}</p>
+
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col pt-6 pl-4 gap-1">
+          <div class="relative text-sm font-semibold">
+            {t("academicBackground.academicBackground2Course")}
+          </div>
+
+          <p class="text-sm font-thin">
+            {t("academicBackground.academicBackground2Description")}
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,42 @@
+---
+  import { t } from "i18next";
+  import SkillChip from "./SkillChip.astro";
+---
+
+<div class="relative lg:mx-auto my-16 items-center px-4 lg:px-0">
+  <div class="w-full grid grid-cols-12 gap-6 md:gap-0">
+    <div class="col-span-12 lg:col-span-3 z-20 ml-6 hidden lg:block">
+      <div
+        class="relative font-semibold pb-2 w-min after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-dark dark:after:bg-light after:w-full">
+        {t("skills.skillsTitle")}
+      </div>
+    </div>
+
+    <div class="col-span-12 lg:col-span-9">
+      <div class="relative font-semibold pb-2 w-full lg:hidden">
+        {t("skills.skillsTitle")}
+      </div>
+
+      <div class="flex items-start justify-start gap-2 flex-wrap">
+        <SkillChip titulo="VueJs" img="/img/skills/vue-logo.png" color="#33A06F" size="md" />
+        <SkillChip titulo="Quasar" img="/img/skills/quasar-logo.svg" color="#00B4FF" size="md" />
+        <SkillChip titulo="Nuxt" img="/img/skills/nuxt-logo.png" color="#00C678" size="md" /> 
+        <SkillChip titulo="Capacitor" img="/img/skills/capacitor-logo.png" color="#24A7FF" size="md" /> 
+        <SkillChip titulo="Sass" img="/img/skills/sass-logo.png" color="#BF4080" size="md" /> 
+        <SkillChip titulo="Bootstrap" img="/img/skills/bootstrap-logo.png" color="#7B09F8" size="md" />
+        <SkillChip titulo="Material Design" img="/img/skills/material-design-logo.png" color="#757575" size="md" />
+        <SkillChip titulo="Tailwind" img="/img/skills/tailwind-logo.png" color="#38BDF8" size="md" />       
+        <SkillChip titulo="Firebase" img="/img/skills/firebase-logo.png" color="#DE6445" size="md" />
+        <SkillChip titulo="Node" img="/img/skills/nodejs-logo.png" color="#80BD41" size="md" />
+        <SkillChip titulo="NestJS" img="/img/skills/nestjs-logo.png" color="#E11E4D" size="md" />
+        <SkillChip titulo="GitLab" img="/img/skills/gitlab-logo.png" color="#E24329" size="md" />
+        <SkillChip titulo="GitHub" img="/img/skills/github-logo.png" color="#000" size="md" />        
+        <SkillChip titulo="Angular" img="/img/skills/angular-logo.png" color="#DE002D" size="sm" />
+        <SkillChip titulo="React" img="/img/skills/react-logo.png" color="#3998B6" size="sm" />
+        <SkillChip titulo="React Native" img="/img/skills/react-logo.png" color="#3998B6" size="sm" />
+        <SkillChip titulo="Spring Boot" img="/img/skills/springboot-logo.png" color="#6CB52D" size="sm" />
+      </div>
+
+    </div>
+  </div>
+</div>

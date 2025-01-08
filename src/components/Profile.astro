@@ -1,0 +1,57 @@
+---
+  import { t } from "i18next";
+  import { Trans } from "astro-i18next/components";
+---
+
+<div id="resume" class="relative lg:mx-auto my-16 items-center px-4 lg:px-0">
+  <div class="w-full grid grid-cols-12 gap-6 md:gap-0">
+    <div class="col-span-12 lg:col-span-3 z-20 ml-6 hidden lg:block">
+      <div
+        class="relative font-semibold pb-2 w-min after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-dark dark:after:bg-light after:w-full">
+        {t("profile.addressTitle")}
+      </div>
+      <div class="pt-4 pr-8 text-xs font-thin ">
+        <Trans i18nKey="profile.addressDescription">
+          <p>
+            Duque de Caxias,
+          </p>
+          <p>
+            RJ - Brasil
+          </p>
+        </Trans>
+
+      </div>
+
+
+    </div>
+    <div class="col-span-12 lg:col-span-9">
+      <div class="flex gap-4 lg:items-end">
+        <div class=" flex flex-col gap-4" style="width: 150px">
+          <div class="relative flex items-center">
+            <div class="bg-primary dark:bg-secondary absolute left-0 w-full h-2 dark:opacity-80">
+            </div>
+            <div class="relative text-lg pl-4 font-semibold">
+              {t("profile.profileTitle")}
+            </div>
+          </div>
+
+          <div class="rounded-full overflow-hidden grayscale flex items-center justify-center" style="height: 100px; width: 100px; background: #9E9E9E !important; pointer-events: none;">
+            <img src="/img/perfil_2.jpg" alt="Foto do perfil" class="w-20 mt-8">
+          </div>
+        </div>
+        <div class="flex-1 flex flex-col mt-1 gap-1">
+          <div class="relative text-sm font-semibold whitespace-nowrap">
+            José Rosaldo Araujo Garcia
+          </div>
+          <p class="text-sm font-thin">
+            {t("profile.profileDescription")}
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

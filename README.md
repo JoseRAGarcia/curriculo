@@ -1,47 +1,85 @@
-# Astro Starter Kit: Minimal
+# Site de Currículo
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Este é um projeto de site de currículo desenvolvido com o objetivo de apresentar de forma profissional as informações e habilidades do usuário. O site foi criado utilizando [Astro Framework](https://astro.build/) e conta com suporte a múltiplos idiomas (português e inglês) através da biblioteca i18n. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+Além disso, o site oferece a possibilidade de baixar o currículo em formato PDF diretamente da página, garantindo maior acessibilidade e conveniência para os usuários.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Funcionalidades
 
-## 🚀 Project Structure
+- **Interface Visualmente Agradável**: Design moderno e responsivo.
+- **Suporte a Múltiplos Idiomas**: Alterne facilmente entre português e inglês.
+- **Download do Currículo em PDF**: Obtenha uma cópia do currículo com apenas um clique.
+- **Seções Principais**: Contém áreas essenciais como experiência, formação, habilidades, projetos e contatos.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Acesse o Site
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Você pode acessar o site clicando no link abaixo:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+[**Acessar o Site de Currículo**](https://josegarciadev.com/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Tecnologias Utilizadas
 
-## 🧞 Commands
+- **Astro Framework**: Para construção do site.
+- **i18n**: Suporte a múltiplos idiomas.
+- **Tailwind CSS**: Estilização.
+- **PDF.js**: Para geração e download do currículo em PDF.
 
-All commands are run from the root of the project, from a terminal:
+## Como Contribuir
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
-## 👀 Want to learn more?
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua funcionalidade: `git checkout -b minha-funcionalidade`.
+3. Realize as alterações necessárias e faça commit: `git commit -m 'Adiciona nova funcionalidade'`.
+4. Envie para o seu fork: `git push origin minha-funcionalidade`.
+5. Abra um Pull Request neste repositório.
+<br><br>
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+**Desenvolvido por [José Rosaldo Araujo Garcia](https://github.com/JoseRAGarcia)**.
+
+---
+<br/><br/>
+
+# Resume Website
+
+This is a resume website project developed to professionally showcase the user's information and skills. The site was created using the [Astro Framework](https://astro.build/) and includes multilingual support (Portuguese and English) through the i18n library.
+
+Additionally, the site offers the possibility to download the resume in PDF format directly from the page, ensuring greater accessibility and convenience for users.
+
+## Features
+
+- **Visually Appealing Interface**: Modern and responsive design.
+- **Multilingual Support**: Easily switch between Portuguese and English.
+- **PDF Resume Download**: Get a copy of the resume with just one click.
+- **Main Sections**: Includes essential areas like experience, education, skills, projects, and contact.
+
+## Access the Website
+
+You can access the website by clicking the link below:
+
+[**Access the Resume Website**](https://josegarciadev.com/en)
+
+---
+
+### Technologies Used
+
+- **Astro Framework**: For building the site.
+- **i18n**: Multilingual support.
+- **Tailwind CSS**: Styling.
+- **PDF.js**: For generating and downloading the resume in PDF format.
+
+## How to Contribute
+
+If you want to contribute to this project, follow the steps below:
+
+1. Fork this repository.
+2. Create a branch for your feature: `git checkout -b my-feature`.
+3. Make the necessary changes and commit them: `git commit -m 'Add new feature'`.
+4. Push it to your fork: `git push origin my-feature`.
+5. Open a Pull Request in this repository.
+<br><br>
+
+**Developed by [José Rosaldo Araujo Garcia](https://github.com/JoseRAGarcia)**.
+
