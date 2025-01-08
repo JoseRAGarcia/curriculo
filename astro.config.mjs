@@ -5,10 +5,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   output: 'static',
   integrations: [
-    astroI18next({
-      defaultLocale: "pt",
-      locales: ["en", "pt"],
-    }),
+    astroI18next(),
     tailwind()
   ],
 });
