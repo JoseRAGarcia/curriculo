@@ -16,9 +16,13 @@
     display: flex !important;
   }
 
-  .page-top {
-    padding-top: 32px;
+  .page-bottom {
+    margin-bottom: 64px !important;
   }
+
+  /* .page-top {
+    padding-top: 32px !important;
+  } */
 
   .my-container {
     width: 100%;

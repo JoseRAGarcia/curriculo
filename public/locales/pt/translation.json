@@ -18,10 +18,10 @@
     "addressTitle": "Endereço",
     "addressDescription": "<p>Duque de Caxias,</p><p>RJ - Brasil</p>",
     "profileTitle": "Perfil",
-    "profileDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quos eum sint, similique, quis debitis, lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quos eum sint, similique, quis debitis, reiciendis pariatur iure earum quia sequi ducimus eos quod eaque quasi. Laborum beatae nihil vel."
+    "profileDescription": "<p>Sou Analista de Sistemas com experiência em desenvolvimento front-end e mobile, especializado em frameworks como VueJS, NuxtJS, Quasar e Ionic Capacitor. Tenho foco em criar soluções modernas, responsivas e de alta qualidade, valorizando o trabalho em equipe e a entrega de resultados que agreguem valor.</p> <p>Minha trajetória reflete meu compromisso com aprendizado e evolução profissional, passando por diferentes áreas até me consolidar no desenvolvimento de sistemas.</p>"
   },
   "skills": {
-    "skillsTitle": "Principais Competências"    
+    "skillsTitle": "Principais Competências"
   },
   "workExperience": {
     "workExperienceTitle": "Experiência Profissional",
@@ -29,7 +29,32 @@
     "workExperience1CompanyName": "Karyon Consultoria em Informática",
     "workExperience1CompanyAddress": "<p>Jacarepaguá,</p><p>RJ - Brasil</p>",
     "workExperience1Position": "Analista de Sistemas",
-    "workExperience1Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab."
+    "workExperience1Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab.",
+    "workExperience2Period": "2021 - 2022",
+    "workExperience2CompanyName": "Karyon Consultoria em Informática",
+    "workExperience2CompanyAddress": "<p>Jacarepaguá,</p><p>RJ - Brasil</p>",
+    "workExperience2Position": "Programador Júnior",
+    "workExperience2Description": "Desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab.",
+    "workExperience3Period": "2018 - 2021",
+    "workExperience3CompanyName": "Sonda",
+    "workExperience3CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brasil</p>",
+    "workExperience3Position": "Técnico de TI",
+    "workExperience3Description": "Prestação de serviço ao cliente DASA, atuando na manutenção do parque de informática com apoio à hardware e software. Nesse período eu já cursava minha graduação em Análise e Desenvolvimentode Sistemas e já aplicava os meus conhecimentos com pequenos softwares de apoio.",
+    "workExperience4Period": "2015 - 2018",
+    "workExperience4CompanyName": "TIVIT",
+    "workExperience4CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brasil</p>",
+    "workExperience4Position": "Técnico de TI",
+    "workExperience4Description": "Ainda tendo como cliente a empresa DASA, na qual eu já prestava serviço desde 2012, mantive o bom desempenho da minha função sem me deixar limitar por ela. Busquei aprimorar meus conhecimentos sempre utilizando os conhecimentos da minha formação em administração para ajudar nos processos de TI que eu desenvolvia. Mantive o bom relacionamento tanto com a empresa pela qual eu fui contratado quanto com o cliente onde eu prestava o serviço.",
+    "workExperience5Period": "2015 - 2015",
+    "workExperience5CompanyName": "NEORIS",
+    "workExperience5CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brasil</p>",
+    "workExperience5Position": "Técnico de TI",
+    "workExperience5Description": "Devido a minha dedicação na área administrativa da empresa DASA, fui indicado para o setor de TI, o qual eu já tinha profundo interesse. Lá trabalhei junto à coordenação mesclando de meus conhecimentos administrativos às habilidades técnicas de informática que eu estava começando a desenvolver.",
+    "workExperience6Period": "2012 - 2015",
+    "workExperience6CompanyName": "Grupo DASA",
+    "workExperience6CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brasil</p>",
+    "workExperience6Position": "Assistente Administrativo",
+    "workExperience6Description": "Trabalhei como assistente administrativo me destacando pela disciplina e atitude em melhorar processos do setor em que atuava."
   },
   "academicBackground": {
     "academicBackgroundTitle": "Formação Acadêmica",
@@ -37,11 +62,11 @@
     "academicBackground1CompanyName": "Universidade Unigranrio",
     "academicBackground1CR": "C.R.: 9,30",
     "academicBackground1Course": "Graduação em Análise e Desenvolvimento de Sistemas",
-    "academicBackground1Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab.",
+    "academicBackground1Description": "Formação voltada para o desenvolvimento de software, análise de sistemas e resolução de problemas tecnológicos, com foco em práticas modernas e soluções eficientes para o mercado de TI.",
     "academicBackground2Period": "2010 - 2014",
     "academicBackground2CompanyName": "Universidade Unigranrio",
     "academicBackground2CR": "C.R.: 9,08",
     "academicBackground2Course": "Bacharel em Administração",
-    "academicBackground2Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab."
+    "academicBackground2Description": "Formação abrangente em gestão empresarial, planejamento estratégico e tomada de decisões, com foco em eficiência organizacional e desenvolvimento de competências de liderança."
   }
 }
