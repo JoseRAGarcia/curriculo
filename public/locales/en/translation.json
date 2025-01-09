@@ -18,18 +18,43 @@
     "addressTitle": "Address",
     "addressDescription": "<p>Duque de Caxias,</p><p>RJ - Brazil</p>",
     "profileTitle": "Profile",
-    "profileDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quos eum sint, similique, quis debitis, lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio quos eum sint, similique, quis debitis, reiciendis pariatur iure earum quia sequi ducimus eos quod eaque quasi. Laborum beatae nihil vel."
+    "profileDescription": "<p>I am a Systems Analyst with experience in front-end and mobile development, specialized in frameworks such as VueJS, NuxtJS, Quasar, and Ionic Capacitor. I focus on creating modern, responsive, and high-quality solutions, emphasizing teamwork and delivering results that add value.</p> <p>My career reflects my commitment to learning and professional growth, transitioning through different areas until establishing myself in systems development.</p>"
   },
   "skills": {
     "skillsTitle": "Main Skills"    
   },
   "workExperience": {
-    "workExperienceTitle": "Work Experience",
-    "workExperience1Period": "2022 - Today",
-    "workExperience1CompanyName": "Karyon Consultoria em Informática",
+    "workExperienceTitle": "Professional Experience",
+    "workExperience1Period": "2022 - Present",
+    "workExperience1CompanyName": "Karyon IT Consulting",
     "workExperience1CompanyAddress": "<p>Jacarepaguá,</p><p>RJ - Brazil</p>",
     "workExperience1Position": "Systems Analyst",
-    "workExperience1Description": "Responsible for Front End development using VueJS, NuxtJS, Quasar and other supporting technologies such as Material Design, Bootstrap, Sass; Mobile development with Ionic Capacitor and versioning with GitFlow and GitLab."
+    "workExperience1Description": "Responsible for Front End development using VueJS, NuxtJS, Quasar, as well as supporting technologies like Material Design, Bootstrap, Sass; Mobile development with Ionic Capacitor, and version control using GitFlow and GitLab.",
+    "workExperience2Period": "2021 - 2022",
+    "workExperience2CompanyName": "Karyon IT Consulting",
+    "workExperience2CompanyAddress": "<p>Jacarepaguá,</p><p>RJ - Brazil</p>",
+    "workExperience2Position": "Junior Developer",
+    "workExperience2Description": "Front End development using VueJS, NuxtJS, Quasar, as well as supporting technologies like Material Design, Bootstrap, Sass; Mobile development with Ionic Capacitor, and version control using GitFlow and GitLab.",
+    "workExperience3Period": "2018 - 2021",
+    "workExperience3CompanyName": "Sonda",
+    "workExperience3CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brazil</p>",
+    "workExperience3Position": "IT Technician",
+    "workExperience3Description": "Provided services to the DASA client, maintaining the IT infrastructure with hardware and software support. During this period, I was pursuing my degree in Systems Analysis and Development and applied my knowledge in small support software.",
+    "workExperience4Period": "2015 - 2018",
+    "workExperience4CompanyName": "TIVIT",
+    "workExperience4CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brazil</p>",
+    "workExperience4Position": "IT Technician",
+    "workExperience4Description": "Continuing to serve the DASA client, where I had been working since 2012, I maintained strong performance in my role without limiting myself to it. I sought to improve my knowledge, applying my administrative background to enhance the IT processes I developed. I maintained good relationships with both the hiring company and the client.",
+    "workExperience5Period": "2015 - 2015",
+    "workExperience5CompanyName": "NEORIS",
+    "workExperience5CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brazil</p>",
+    "workExperience5Position": "IT Technician",
+    "workExperience5Description": "Due to my dedication in the administrative area of DASA, I was recommended to the IT department, an area in which I had a deep interest. There, I worked alongside the coordination team, combining my administrative knowledge with the technical IT skills I was beginning to develop.",
+    "workExperience6Period": "2012 - 2015",
+    "workExperience6CompanyName": "Grupo DASA",
+    "workExperience6CompanyAddress": "<p>Duque de Caxias,</p><p>RJ - Brazil</p>",
+    "workExperience6Position": "Administrative Assistant",
+    "workExperience6Description": "Worked as an administrative assistant, standing out for my discipline and initiative in improving processes within the department."
   },
   "academicBackground": {
     "academicBackgroundTitle": "Academic Background",
@@ -37,11 +62,12 @@
     "academicBackground1CompanyName": "Universidade Unigranrio",
     "academicBackground1CR": "GPA: 9,30",
     "academicBackground1Course": "Graduation in Systems Analysis and Development",
-    "academicBackground1Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab.",
+    "academicBackground1Description": "Focused on software development, systems analysis, and solving technological challenges, with an emphasis on modern practices and efficient solutions for the IT market.",
     "academicBackground2Period": "2010 - 2014",
     "academicBackground2CompanyName": "Universidade Unigranrio",
     "academicBackground2CR": "GPA: 9,08",
     "academicBackground2Course": "Bachelor's degree in Business Administration",
-    "academicBackground2Description": "Responsável pelo desenvolvimento Front End utilizando VueJS, NuxtJS, Quasar além de outras tecnologias de apoio como Material Design, Bootstrap, Sass; Desenvolvimento Mobile com Ionic Capacitor e versionamento com GitFlow e GitLab."
+    "academicBackground2Description": "Comprehensive education in business management, strategic planning, and decision-making, with a focus on organizational efficiency and leadership development."
+
   }
 }

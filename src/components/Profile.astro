@@ -25,7 +25,7 @@
 
     </div>
     <div class="col-span-12 lg:col-span-9">
-      <div class="flex gap-4 lg:items-end">
+      <div class="flex gap-4 lg:items-start">
         <div class=" flex flex-col gap-4" style="width: 150px">
           <div class="relative flex items-center">
             <div class="bg-primary dark:bg-secondary absolute left-0 w-full h-2 dark:opacity-80">
@@ -35,7 +35,8 @@
             </div>
           </div>
 
-          <div class="rounded-full overflow-hidden grayscale flex items-center justify-center" style="height: 100px; width: 100px; background: #9E9E9E !important; pointer-events: none;">
+          <div class="rounded-full overflow-hidden grayscale flex items-center justify-center"
+            style="height: 100px; width: 100px; background: #9E9E9E !important; pointer-events: none;">
             <img src="/img/perfil_2.jpg" alt="Foto do perfil" class="w-20 mt-8">
           </div>
         </div>
@@ -43,9 +44,11 @@
           <div class="relative text-sm font-semibold whitespace-nowrap">
             José Rosaldo Araujo Garcia
           </div>
-          <p class="text-sm font-thin">
-            {t("profile.profileDescription")}
-          </p>
+          <div class="text-sm font-thin">
+            <Trans i18nKey="profile.profileDescription">
+              <p>profileDescription</p>
+            </Trans>
+          </div>
         </div>
 
       </div>
